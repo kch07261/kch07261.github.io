@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+        font-family: 'omyu_pretty';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+    }
+    html, body {
+        width: 1024px;
+        height: 1600px;
+        margin: 0;
+        padding: 0;
+    }
+    #aside {
+        float: left;
+        display: inline;
+        position: sticky;
+        top: 0px;
+        width: 230px;
+        height: 1030px;
+        background-color: rgb(46, 111, 172);
+        text-align: center;
+    }
+    #header {
+        display: inline-block;
+        width: 694px;
+        height: 100px;
+        padding-left: 90px;
+    }
+    #nav {
+        display: inline-block;
+        width: 694px;
+        height: 200px;
+        padding-left: 90px;
+    }
+    #article {
+        display: flex;
+        width: 784px;
+        height: 580px;
+    }
+    #section {
+        display: inline-block;
+        width: 350px;
+        padding-top: 12px;
+        padding-left: 90px;
+    }
+    #section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 344px;
+        border-left: 2px dashed #000;
+        padding-left: 50px;
+    }
+    
+    #myImg {
+        margin: 10px;
+        border-radius: 50%;
+    }
+    b {
+        font-size: 20px;
+    }
+    p {
+        font-size: 18px;
+    }
+    #underline {
+        color: #fff;
+        font-weight: bold;
+    }
+    hr {
+        border: 1px solid rgb(46, 111, 172);
+    }
+    #phone {
+        border-radius: 10%;
+    }
+    .good {
+        font-family: 'omyu_pretty', sans-serif;
+        font-size: 20px;
+    }
+    .intro {
+        font-family: 'GmarketSansMedium';
+    }
+    #head {
+        font-size: 50px;
+    }
+    .box {
+        margin-right: 40px;
+        border: 1px solid rgb(46, 111, 172);
+        border-top-left-radius: 0.5em;
+        border-top-right-radius: 0.5em;
+        border-bottom-left-radius: 0.5em;
+        border-bottom-right-radius: 0.5em;
+        text-align: center;
+    }
+    .color {
+        color: rgb(46, 111, 172);
+    }
+    .circle {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        vertical-align: top;
+        border-radius: 50%;
+        width: 110px;
+        height: 110px;
+        margin-right: 15px;
+        text-align: center;
+        color: #fff;
+    }
+    .bla {
+        display: inline-block;
+        font-size: 13px;
+    }
+    .bla_intro {
+        display: inline-block;
+        font-size: 13px;
+        font-family: 'GmarketSansMedium';
+        padding-left: 50px;
+    }
+    .stu {
+        width: 30px;
+        height: 37px;
+        margin-right: 40px;
+    }
+    .ach {
+        display: flex;
+        align-items: center;
+    }
+    .detail {
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+    .summary {
+        font-size: 12px;
+    }
+    #landing {
+        width: 60px;
+        border-radius: 30%;
+    }
+    #landing:hover {
+        box-shadow: 6px 6px 0 0 #000;
+    }
+
+    #article2 {
+        display: inline-block;
+        width: 694px;
+        height: 480px;
+        padding-left: 90px;
+    }
+
+    #section3 {
+        display: inline-block;
+        width: 694px;
+        height: 431px;
+        z-index: 2;
+    }
+
+    #loadmapImg {
+        z-index: 1;
+        position: absolute;
+    }
+    .roadmapWrapper {
+        position: absolute;
+        background-image: url(../image/로드맵.PNG);
+        width: 600px;
+        height: 400px;
+        margin-left: 50px;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+
+    #one {
+        display: inline-block;
+        text-align: center;
+        width: 150px;
+        margin-left: 30px;
+        margin-top: 30px;
+        background-color: yellow;
+        padding: 10px;
+        opacity: 0;
+        border-radius: 20%;
+        z-index: 2;
+    }
+    #two {
+        display: inline-block;
+        text-align: center;
+        width: 150px;
+        margin-left: 450px;
+        padding: 10px;
+        background-color: rgb(0, 162, 255);
+        opacity: 0;
+        border-radius: 20%;
+        z-index: 2;
+    }
+    #three {
+        display: inline-block;
+        text-align: center;
+        width: 150px;
+        margin-right: 70px;
+        margin-bottom: 0px;
+        background-color: rgb(0, 255, 64);
+        padding: 10px;
+        opacity: 0;
+        border-radius: 20%;
+        z-index: 2;
+    }
+    #four {
+        display: inline-block;
+        text-align: center;
+        width: 150px;
+        margin-left: 210px;
+        margin-top: 50px;
+        background-color: rgb(255, 30, 0);
+        padding: 10px;
+        opacity: 0;
+        border-radius: 20%;
+        z-index: 2;
+    }
+    .numWrapper {
+        z-index:3;
+        position: absolute;
+    }
+    .numWrapper:hover #one {
+        transition-duration: 1.5s;
+        transition-delay: 2.8s;
+        opacity: 0.7;
+    }
+    .numWrapper:hover #two {
+        transition-duration: 1.5s;
+        transition-delay: 2.0s;
+        opacity: 0.7;
+    }
+    .numWrapper:hover #three {
+        transition-duration: 1.5s;
+        transition-delay: 1.2s;
+        opacity: 0.7;
+    }
+    .numWrapper:hover #four {
+        transition-duration: 1.5s;
+        transition-delay: 0.5s;
+        opacity: 0.7;
+    }

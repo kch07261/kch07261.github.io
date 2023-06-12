@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html,body {
+    margin: 0;
+    width: 1024px;
+    height: 100%;
+}
+#header {
+    height: 100px;
+}
+#header .headerCon {
+    display: inline-block;
+    padding-top: 40px;
+    padding-left: 220px;
+    font-family: 'GmarketSansMedium';
+    font-size: 25px;
+}
+.headerWrapper {
+    font-family: 'GmarketSansMedium';
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 45%;
+    padding-top: 30px;
+}
+a {
+    text-decoration: none;
+}
+#nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#nav h2 {
+    font-family: 'GmarketSansMedium';
+    font-weight: 400;
+}
+#nav .navmain {
+    display: flex;
+    flex-direction: row;
+}
+#nav .navmain img {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#nav .navserve {
+    display: flex;
+    flex-direction: row;
+}
+#section {
+    width: 90%;
+    margin-left: 60px;
+}
+#section .box {
+    padding: 50px;
+}
+#section .req {
+    color: orange;
+}
+#section #enroll tr th {
+    text-align: left;
+    padding: 20px 50px 20px 60px;
+}
+#section fieldset input {
+    border: none;
+    border-bottom: 0.5px solid;
+}
+#section .submit {
+    text-align: center;
+    margin-top: 40px;
+}
+.phone {
+    width: 60px;
+}
+#member {
+    color: #000;
+    text-decoration: underline;
+    padding-left: 40px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="css/sign_up.css">
+</head>
+<body>
+    <div id="header">
+        <div class="headerCon">
+            <img src="image/kh_2.PNG" alt="" style="width: 45px; height: 30px;"><a href="main.html"><span style="color: #000;">창환투어</span></a>
+        </div>
+        <div class="headerWrapper">
+            <a href="javascript:alert('준비중입니다..');"><span style="color: #000;">로그인</span></a>&nbsp;&nbsp;&nbsp;
+            <a href="signup.html"><span style="color: #000;">회원가입</span></a>&nbsp;&nbsp;&nbsp;
+        </div>
+    </div>
+    <hr>
+    <div id="nav">
+        <h2>회원가입</h2>
+        <div class="navmain">
+            <img src="image/회원가입.PNG" alt=""><hr>
+            <img src="image/회원가입_2.PNG" alt="" style="opacity: 0.4;">
+        </div>
+        <div class="navserve">
+            <span>1. 회원정보입력</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span style="opacity: 0.4;">2. 회원가입완료</span>
+        </div>
+    </div>
+    <div id="section">
+        <form action="signup_complete.html" name="memberFrm">
+            <fieldset>
+                <table id="enroll">
+                    <tr>
+                        <th>이름<span class="req"> *</span></th>
+                        <td>
+                            <input type="text" name="userName" id="userName" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>아이디<span class="req"> *</span></th>
+                        <td>
+                            <input type="text" name="userId" id="userId" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>비밀번호<span class="req"> *</span></th>
+                        <td>
+                            <input type="password" name="pwd" id="pwd" />
+                        </td>
+                    </tr>
+                        <tr>
+                        <th>비밀번호확인<span class="req"> *</span></th>
+                        <td>
+                            <input type="password" id="pwdCheck" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>휴대폰번호<span class="req"> *</span></th>
+                        <td>
+                            <input type="text" name="tel1" id="tel1" class="phone" />-
+                            <input type="text" name="tel2" id="tel2" class="phone" />-
+                            <input type="text" name="tel3" id="tel3" class="phone" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>주민번호<span class="req"> *</span></th>
+                        <td>
+                            <input type="text" name="ssn1" id="ssn1" class="short" />-
+                            <input type="password" name="ssn2" id="ssn2" class="short" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>이메일<span class="req"> *</span></th>
+                        <td>
+                            <input type="email" name="email" id="email" />
+                        </td>
+                    </tr>
+                </table>
+                <input type="reset" value="초기화" style="border: 0.5px solid; margin-left: 90%;"/>
+            </fieldset>
+            <div class="submit">
+                <input type="submit" value="회원가입" />
+                
+            </div>
+        </form>
+    </div>
+    <script src="js/sign_up.js"></script>
+</body>
+</html>
